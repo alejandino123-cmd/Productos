@@ -1,0 +1,15 @@
+# Claves y contraseñas: nunca se suben
+.env
+.env.*
+!.env.example
+
+# Se reinstalan con composer install y npm install
+/backend/vendor/
+/frontend/node_modules/
+/frontend/dist/
+
+# Archivos generados
+*.log
+*.sqlite
+.DS_Store
+Thumbs.db
